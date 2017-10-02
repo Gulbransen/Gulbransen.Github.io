@@ -1,15 +1,37 @@
-@font-face {
-	font-family: myFirstFont;
-	src: url(roboto-black.ttf);
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Heebo');
+
+body {
+	background-color: #9B2242;
 }
 
-body, html {
-    height: 72%;
+h1 {
+	font-family: "heebo black", sans-serif;
+	font-size: 72px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+	font-family: "Gentium Book Basic", serif;
+	font-size: 32px;
+	line-height: 1.5em;
+	margin: 2em;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 28px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 .hero-image {
- 
-    background-image: url("Wine.jpg");
+    background-image: url("paragon-vineyard 2.jpg");
     background-position: center;
     height: 1200px;
     width: 2200px;
@@ -25,14 +47,8 @@ body, html {
     color: #FFFFFF;
 }
 
-h1 {
-	font-family: roboto;
-	font-weight: bold;
-	font-size: 72px;
-}
-
 #slogan {
-	font-family: Garamond;
+	font-family: "Gentium Book Basic", serif;
 	font-weight: bold;
 	font-style: italic;
 	font-size: 40px;
@@ -52,31 +68,14 @@ h1 {
 	float: right;
 	display: block;
     color: white;
-    font-family: roboto;
+    font-family: "Gentium Book Basic", serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
  }
 
- a:link {
-    color: white;
-    text-decoration: none;
-}
-
-body {
-	background-color: #9B2242;
-}
-
-p {
-	font-family: Garamond;
-	font-size: 32px;
-	text-align: center;
-	color: #FFFFFF;
-}
-
-ul {
-	list-style-type: none;
-	font-size: 28px;
-	text-align: center;
-	color: #FFFFFF;
-}
+ .header {
+ 	font-family: "heebo black", sans-serif;
+ 	font-weight: bold;
+ 	font-size: 26px;
+ }
