@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Heebo');
+
+header {
+	clear: none;
+}
+body {
+	background-color: #9B2242;
+	padding: 0;
+}
+h1, .header, #reviews, #suggestions, #experts  {
+	font-family: "heebo black", sans-serif;
+}
+h1 {
+	font-size: 64px;
+}
+nav {
+	float: right;
+    color: white;
+    font-family: "Gentium Book Basic", serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0% 10%;
+}
+nav a {	
+	margin: 1.8em;
+	display: inline-block;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+p,footer {
+	font-family: "Gentium Book Basic", serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin: 2em;
+	text-align: center;
+	color: #FFFFFF;
+}
+p {
+display: inline-block;
+}
+h4 {
+	font-family: "Gentium Book Basic", serif;
+	color: #FFFFFF;
+	font-size: .75em;
+	text-align: center;
+}
+section {
+	clear: none;
+}
+aside {
+	background-color: #A8A036;
+	font-family: "Gentium Book Basic", serif;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+    padding: 20px;
+}
+span {
+	font-family: "heebo black", sans-serif;
+	font-size: .8em;
+}
+footer {
+    text-align: center;
+	padding: 1.5em 0;
+  	clear: both;
+}
+ul {
+	list-style-type: none;
+	font-size: 1em;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+}
+.wrapper {
+	max-width: 1400px;
+	margin: 0, auto;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.header {
+ 	font-weight: bold;
+ 	font-size: 1em;
+ }
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #9B2242;
+}
+#hero {
+    background-image: url("paragon-vineyard2.jpg");
+    display: inline-block;
+  	width: 100%;
+  	margin: 0 auto;
+}
+#slogan {
+	font-family: "Gentium Book Basic", serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2em;
+    align-items: bottom;
+    color: #FFF
+}
+#topnavbar {
+    font-size: 1.25em;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+	color: #FFFFFF;
+    display: inline;
+}
+#reviews, #suggestions, #experts {
+	color: #FFFFFF;
+	font-size: 1.5em;
+	text-align: center;
+    padding: 1%;
+    float: left;
+ 	width: 31%;
+}
+#article {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+}
+@media only screen and (max-width: 1138px) {
+	h1 {
+		font-size: 50px;
+	}
+	#reviews, #suggestions, #experts {
+		float: right;
+		width: 50%;
+	}
+	#article {
+		float: left;
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	h1 {
+		font-size: 45px;
+	}
+	nav {
+		float: none;
+	}
+	nav a {	
+		margin: 1.8em;
+		display: block;
+		font-size: 1em;
+	}
+	.hero-text {
+    	top: 75%;
+	}
+	#slogan {
+		font-size: 1.5em
+	}
+
+}
