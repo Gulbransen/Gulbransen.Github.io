@@ -39,7 +39,7 @@ p,footer {
 	color: #FFFFFF;
 }
 p {
-display: inline-block;
+	display: inline-block;
 }
 h4 {
 	font-family: "Gentium Book Basic", serif;
@@ -49,6 +49,7 @@ h4 {
 }
 section {
 	clear: none;
+	padding: auto;
 }
 aside {
 	background-color: #A8A036;
@@ -95,7 +96,7 @@ ul {
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #9B2242;
@@ -141,12 +142,15 @@ ul {
 		font-size: 50px;
 	}
 	#reviews, #suggestions, #experts {
-		float: right;
+		float: none;
 		width: 50%;
 	}
 	#article {
 		float: left;
 		width: 50%;
+		height: 50%;
+		display: inline-block;
+		padding: 100px, 100px;
 	}
 }
 @media only screen and (max-width: 992px) {
@@ -162,10 +166,17 @@ ul {
 		font-size: 1em;
 	}
 	.hero-text {
-    	top: 75%;
+    	top: 60%;
 	}
 	#slogan {
 		font-size: 1.5em
 	}
-
+}
+@media only screen and (max-width: 770px) {
+	p, aside, footer {
+		font-size: 1em;
+	}
+	nav {
+		font-size: .75em;
+	}
 }
