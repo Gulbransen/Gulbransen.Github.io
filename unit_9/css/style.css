@@ -93,6 +93,9 @@ ul {
  	font-weight: bold;
  	font-size: 1em;
  }
+ .hero {
+ 	position: relative;
+ }
 .hero-text {
     text-align: center;
     position: absolute;
@@ -101,7 +104,7 @@ ul {
     transform: translate(-50%, -50%);
     color: #9B2242;
 }
-#hero {
+#hero-image {
     background-image: url("paragon-vineyard2.jpg");
     display: inline-block;
   	width: 100%;
@@ -164,9 +167,6 @@ ul {
 		padding: .75em;
 		font-size: 1em;
 	}
-	.hero-text {
-    	top: 80%;
-	}
 	#slogan {
 		font-size: 1.5em
 	}
@@ -179,25 +179,12 @@ ul {
 		font-size: .75em;
 	}
 }
-@media only screen and (max-width: 710px) {
-	.hero-text {
-    	top: 75%;
-	}
-}
 @media only screen and (max-width: 590px) {
 	h1 {
     	font-size: 2em;
 	}
 	#slogan {
 		font-size: 1.5em;
-	}
-	.hero-text {
-		top: 75%;
-	}
-}
-@media only screen and (max-width: 560px) {
-	.hero-text {
-		top: 70%;
 	}
 }
 @media only screen and (max-width: 470px) {
@@ -210,9 +197,6 @@ ul {
 	#slogan {
 		font-size: 1.25em;
 	}
-	.hero-text {
-		top: 68%;
-	}
 }
 @media only screen and (max-width: 400px) {
 	h1 {
@@ -224,8 +208,5 @@ ul {
 
 	#slogan {
 		font-size: 1em;
-	}
-	.hero-text {
-		top: 55%;
 	}
 }
