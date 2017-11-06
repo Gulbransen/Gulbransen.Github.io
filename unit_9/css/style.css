@@ -58,7 +58,7 @@ aside {
 	font-size: 1.5em;
 	font-weight: bold;
 	font-style: italic;
-	color: #FFFFFF;
+	color: #F4F3DC;
     padding: 20px;
 }
 span {
@@ -113,7 +113,7 @@ ul {
 	font-style: italic;
 	font-size: 2em;
     align-items: bottom;
-    color: #FFFFFF;
+    color: #F4F3DC;
 }
 #topnavbar {
     font-size: 1.25em;
