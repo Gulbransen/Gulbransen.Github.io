@@ -15,10 +15,8 @@ h1 {
 }
 nav {
 	float: right;
-    color: white;
     font-family: "Gentium Book Basic", serif;
     text-align: center;
-    text-decoration: none;
     font-size: 1.5em;
     padding: 0% 10%;
 }
@@ -29,6 +27,9 @@ nav a {
 a:link {
     color: #9B2242;
     text-decoration: none;
+}
+a:hover {
+	color: #A8A036;
 }
 p,footer {
 	font-family: "Gentium Book Basic", serif;
@@ -120,12 +121,10 @@ ul {
 }
 #topnavbar {
     font-size: 1.25em;
-	list-style-type: none;
     margin: 0;
     padding: 0;
 	text-align: center;
 	color: #9B2242;
-    display: inline;
 }
 #reviews, #suggestions, #experts {
 	color: #9B2242;
@@ -168,7 +167,7 @@ ul {
 		font-size: 1em;
 	}
 	#slogan {
-		font-size: 1.5em
+		font-size: 1.5em;
 	}
 }
 @media only screen and (max-width: 770px) {
